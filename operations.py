@@ -10,3 +10,8 @@ def mul(x, y):
     """Return the product of x and y."""
     return x * y
 
+def div(x, y):
+    """Return the division of x by y, or error if y is zero."""
+    if y == 0:
+        return "Error: Division by zero"
+    return x / y
