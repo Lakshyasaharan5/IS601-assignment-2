@@ -6,3 +6,7 @@ def sub(x, y):
     """Return the difference of x minus y."""
     return x - y
 
+def mul(x, y):
+    """Return the product of x and y."""
+    return x * y
+
