@@ -8,34 +8,34 @@ Available commands: add, sub, mul, div, exit
 calc> 
 ```
 
-### Add operation
+#### Add operation
 ```bash
 calc> add 2 3
 5.0
 ```
-### Subtract operation
+#### Subtract operation
 ```bash
 calc> sub 8 2
 6.0
 ```
 
-### Multiply operation
+#### Multiply operation
 ```bash
 calc> mul 7 4
 28.0
 ```
 
-### Divide operation
+#### Divide operation
 ```bash
 calc> div 10 3
 3.3333333333333335
 ```
-### Division by zero
+#### Division by zero
 ```bash
 calc> div 5 0
 Error: Division by zero
 ```
-### Type *exit* to close
+#### Type *exit* to close
 ```bash
 calc> exit
 Goodbye!
@@ -43,26 +43,26 @@ Goodbye!
 
 ## Setup
 
-### Clone my repo
+#### Clone my repo
 
 ```bash
 git clone git@github.com:Lakshyasaharan5/IS601-assignment-2.git
 ```
 
-### Create a python venv and activate it
+#### Create a python venv and activate it
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### Install packages from requirements.txt
+#### Install packages from requirements.txt
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run pytest
+#### Run pytest
 
 ```bash
 pytest
